@@ -1,0 +1,27 @@
+# Quartus build output
+quartus/db/
+quartus/incremental_db/
+quartus/output_files/
+quartus/qdb/
+quartus/tmp-clearbox/
+*.qws
+*.bak
+*.rpt
+*.qdf
+
+# simulation
+work/
+transcript
+*.wlf
+*.vcd
+
+# python
+__pycache__/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# notebook output unpack area (see README step 1)
+run/
+mnist_fpga_python_phase.zip
